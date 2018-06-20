@@ -1,0 +1,29 @@
+<div class="jumbotron text-center">
+	<p>{{ users.users }}</p>
+	<table>
+		<tr>
+			<th></th>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Surname</th>
+			<th>Date of birth</th>
+			<th>Mobile number</th>
+			<th>Address</th>
+			<th><button>Edit selected</button></th>
+		</tr>
+
+		<tr ng-repeat="user in users">
+			<td><input type="checkbox"></td>
+			<td>{{user.id}}</td>
+			<td>{{user.name}}</td>
+			<td>{{user.surname}}</td>
+			<td>{{user.dateOfBirth | date:'dd-MM-yyyy'}}</td>
+			<td>{{user.mobileNumber}}</td>
+			<td>{{user.address}}</td>
+			<td>
+				<button ng-click="editUserBtn(user)">Edit</button>
+				<button ng-click="deleteUser(user)">Delete</button>
+			</td>
+		</tr>
+	</table>
+</div>

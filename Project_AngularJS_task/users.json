@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "James",
+      "surname": "Bond",
+      "dateOfBirth": "2012-04-21",
+      "mobileNumber": 123456789,
+      "address": "Poznan"
+    },
+    {
+      "id": 2,
+      "name": "James2",
+      "surname": "Bond2",
+      "dateOfBirth": "2012-04-22",
+      "mobileNumber": 123456789,
+      "address": "Poznan2"
+    },
+    {
+      "id": 3,
+      "name": "James3",
+      "surname": "Bond3",
+      "dateOfBirth": "2014-04-23",
+      "mobileNumber": 123456789,
+      "address": "WWA"
+    }
+  ]
+}
