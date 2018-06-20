@@ -1,0 +1,2 @@
+Application that will download from an external file users.json data and displays them in a table.
+Buttons: "edit" and "delete" respectively edit and delete specific users
